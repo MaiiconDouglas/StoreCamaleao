@@ -13,12 +13,15 @@ import CustomInput from "../components/CustomInput";
 const Resetpassword = () => {
   return (
     <>
-      <Meta title={"Reset Password"} />
+      <Meta title={"Camaleão Store | Reset Password"} />
+
       <BreadCrumb title="Reset Password" />
+
       <Container class1="login-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
             <div className="auth-card">
+
               <h3 className="text-center mb-3">Redefinir Senha</h3>
               <form action="" className="d-flex flex-column gap-15">
                 <CustomInput
@@ -26,6 +29,7 @@ const Resetpassword = () => {
                   name="password"
                   placeholder="Password"
                 />
+
                 <CustomInput
                   type="password"
                   name="confpassword"

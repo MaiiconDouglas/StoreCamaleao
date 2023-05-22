@@ -1,6 +1,9 @@
 import React from "react";
+
 import BreadCrumb from "../components/BreadCrumb";
+
 import Container from "../components/Container";
+
 import Meta from "../components/Meta";
 
 const ShippingPolicy = () => {
@@ -14,7 +17,9 @@ const ShippingPolicy = () => {
             <div className="policy"></div>
           </div>
         </div>
+
       </Container>
+
     </>
   );
 };

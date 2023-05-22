@@ -19,7 +19,7 @@ import RefundPloicy from "./pages/RefundPloicy";
 import ShippingPolicy from "./pages/ShippingPolicy";
 import TermAndContions from "./pages/TermAndContions";
 import SingleProduct from "./pages/SingleProduct";
-import Cart from "./pages/Cart";
+import Cart from "./pages/Cart/Cart";
 import Checkout from "./pages/Checkout";
 function App() {
   return (
