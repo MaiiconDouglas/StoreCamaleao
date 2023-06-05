@@ -1,10 +1,10 @@
 import React from "react";
 
-import BreadCrumb from "../components/BreadCrumb";
+import BreadCrumb from "./src/components/BreadCrumb";
 
-import Meta from "../components/Meta";
+import Meta from "./src/components/Meta";
 
-import Container from "../components/Container";
+import Container from "./src/components/Container";
 
 const RefundPloicy = () => {
   return (
