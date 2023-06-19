@@ -1,5 +1,4 @@
 import React from "react";
-import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
 import { Link } from "react-router-dom";
 import Container from "../components/Container";
@@ -7,10 +6,8 @@ import CustomInput from "../components/CustomInput";
 const Forgotpassword = () => {
   return (
     <>
-      <Meta title={"Redefina sua Senha  - Camaleão Store"} />
-      <BreadCrumb title="Redefina sua Senha!" />
-
-
+      <Meta title={"Camaleão - Redefinir sua senha"} />
+      
       <Container class1="login-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">

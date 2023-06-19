@@ -39,13 +39,13 @@
   width: 100%;
   max-width: 450px;
 }
-.logon-container .content form  .CustomInput {
+.logon-container .content form {
   margin-top: 8px;
 }
-.logon-container .content form .input-group .CustomInput{
+.logon-container .content form .input-group {
   display: flex;
 }
-.logon-container .content form .CustomInput .input-group  input + input{
+.logon-container .content form .input-group  input + input{
   margin-left: 8px;
 }
 

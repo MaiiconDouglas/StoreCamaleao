@@ -9,8 +9,11 @@ const Contact = () => {
   return (
     <>
       <Meta title={"Contato"} />
+
       <BreadCrumb title="Contato" />
+
       <Container class1="contact-wrapper py-5 home-wrapper-2">
+        
         <div className="row">
           <div className="col-12">
             <iframe
@@ -65,7 +68,7 @@ const Contact = () => {
                 </form>
               </div>
               <div>
-                <h3 className="contact-title mb-4">Get in touch with us</h3>
+                <h3 className="contact-title mb-4">Entre em contato conosco</h3>
                 <div>
                   <ul className="ps-0">
                     <li className="mb-3 d-flex gap-15 align-items-center">
@@ -94,7 +97,9 @@ const Contact = () => {
             </div>
           </div>
         </div>
+
       </Container>
+
     </>
   );
 };

@@ -15,8 +15,7 @@ const Resetpassword = () => {
     <>
       <Meta title={"Camaleão Store | Reset Password"} />
 
-      <BreadCrumb title="Reset Password" />
-
+     
       <Container class1="login-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">

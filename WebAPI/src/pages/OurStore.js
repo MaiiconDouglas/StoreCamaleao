@@ -37,7 +37,7 @@ const OurStore = () => {
                       id=""
                     />
                     <label className="form-check-label" htmlFor="">
-                      In Stock (1)
+                      Em estoque (1)
                     </label>
                   </div>
                   <div className="form-check">
@@ -47,8 +47,9 @@ const OurStore = () => {
                       value=""
                       id=""
                     />
+
                     <label className="form-check-label" htmlFor="">
-                      Out of Stock(0)
+                       Fora de estoque(0)
                     </label>
                   </div>
                 </div>
@@ -61,7 +62,7 @@ const OurStore = () => {
                       id="floatingInput"
                       placeholder="From"
                     />
-                    <label htmlFor="floatingInput">From</label>
+                    <label htmlFor="floatingInput">De</label>
                   </div>
                   <div className="form-floating">
                     <input
@@ -70,14 +71,14 @@ const OurStore = () => {
                       id="floatingInput1"
                       placeholder="To"
                     />
-                    <label htmlFor="floatingInput1">To</label>
+                    <label htmlFor="floatingInput1">Para</label>
                   </div>
                 </div>
-                <h5 className="sub-title">Colors</h5>
+                <h5 className="sub-title">Cores</h5>
                 <div>
                   <Color />
                 </div>
-                <h5 className="sub-title">Size</h5>
+                <h5 className="sub-title">Tamanho</h5>
                 <div>
                   <div className="form-check">
                     <input
@@ -124,7 +125,7 @@ const OurStore = () => {
               </div>
             </div>
             <div className="filter-card mb-3">
-              <h3 className="filter-title">Random Product</h3>
+              <h3 className="filter-title">Produtos Aleatórios</h3>
               <div>
                 <div className="random-products mb-3 d-flex">
                   <div className="w-50">

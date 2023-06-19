@@ -1,55 +1,50 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
-
-import BreadCrumb from "../../../src/components/BreadCrumb";
-
 import Meta from "../../../src/components/Meta";
-
 import Container from "../../../src/components/Container";
-
-import CustomInput from "../../../src/components/CustomInput";
+import { FiLogIn} from 'react-icons/fi';
 
 import './style.css';
 
 const Login = () => {
   return (
     <>
-      <Meta title={"Login | Camaleão Store "} />
+      <Meta title={"Camaleão - Painel de Controle "} />
       
-      <BreadCrumb title="Login" />
 
       <Container class1="login-wrapper py-5 home-wrapper-2">
-        <div className="row">
-          <div className="col-12">
-            <div className="auth-card">
-              <h3 className="text-center mb-3">LOGIN</h3>
-              <form action="" className="d-flex flex-column gap-15">
-                <CustomInput type="email" name="email" placeholder="Email" />
-                <CustomInput
-                  type="password"
-                  name="password"
-                  placeholder="Password"
-                />
-                
-                <div>
-                  <Link to="/forgot-password">Esqueceu sua senha?</Link>
+      <div className="logon-container">
+      <div className="content">
+    <section>
+     
 
-                  <div className="mt-3 d-flex justify-content-center gap-15 align-items-center">
-                    <button className="button border-0" type="submit">
-                      Login
-                    </button>
+      <h1>Bem Vindo (a) Camaleão Store</h1>
+      <p>Faça seu Login,  na plataforma.</p>
 
-                    <Link to="/signup" className="button inscrever-se">
-                    Inscrever-se
-                    </Link>
+      <Link className="back-link" to="/signup">
+        <FiLogIn size={16} color="#87C65C" />
+        Inscrever-se
+      </Link>
 
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
+    </section>
+
+    <form >
+      
+    <input placeholder="Seu E-mail" /> 
+    <input placeholder="Digite sua senha" type='password'/>
+
+    <Link className="back-link" to="/forgot-password">
+        <FiLogIn size={16} color="#87C65C" />
+        Esqueceu sua senha?
+      </Link>
+
+      
+    <button className="button" type="submit">Entrar</button> 
+
+    </form>    
+      </div>
+    </div>
+  )
 
       </Container>
 

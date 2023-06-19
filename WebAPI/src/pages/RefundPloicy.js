@@ -1,10 +1,7 @@
 import React from "react";
-
-import BreadCrumb from "./src/components/BreadCrumb";
-
-import Meta from "./src/components/Meta";
-
-import Container from "./src/components/Container";
+import BreadCrumb from "../components/BreadCrumb";
+import Meta from "../components/Meta";
+import Container from "../components/Container";
 
 const RefundPloicy = () => {
   return (
@@ -17,7 +14,9 @@ const RefundPloicy = () => {
 
         <div className="row">
           <div className="col-12">
-            <div className="policy"></div>
+            <div className="policy">
+           EM DESENVOLVIMENTO
+            </div>
           </div>
         </div>
 
