@@ -156,7 +156,7 @@ const Checkout = () => {
             </div>
             <div className="d-flex justify-content-between align-items-center border-bootom py-4">
               <h4 className="total">Total</h4>
-              <h5 className="total-price">R$ 9100</h5>
+              <h5 className="total-price">R$ 109.100,00</h5>
             </div>
           </div>
         </div>
