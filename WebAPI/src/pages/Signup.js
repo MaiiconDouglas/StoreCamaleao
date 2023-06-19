@@ -2,7 +2,7 @@ import React from "react";
 import Meta from "../components/Meta";
 import Container from "../components/Container";
 import CustomInput from "../components/CustomInput";
-
+import BreadCrumb from "../components/BreadCrumb";
 
 import './style.css';
 

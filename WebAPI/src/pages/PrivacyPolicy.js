@@ -6,8 +6,8 @@ import Container from "../components/Container";
 const PrivacyPolicy = () => {
   return (
     <>
-      <Meta title={"Politica de Privacidade"} />
-      <BreadCrumb title="Política de Privacidade" />
+      <Meta title={"Camaleão - Politica de Privacidade"} />
+     
       <Container class1="policy-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
