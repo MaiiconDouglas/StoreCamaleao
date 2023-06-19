@@ -11,7 +11,7 @@ const Checkout = () => {
         <div className="row">
           <div className="col-7">
             <div className="checkout-left-data">
-              <h3 className="website-name">Dev Corner</h3>
+              <h3 className="website-name">Camaleão Store </h3>
               <nav
                 style={{ "--bs-breadcrumb-divider": ">" }}
                 aria-label="breadcrumb"
@@ -19,7 +19,7 @@ const Checkout = () => {
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
                     <Link className="text-dark total-price" to="/cart">
-                      Cart
+                    Carrinho
                     </Link>
                   </li>
                   &nbsp; /&nbsp;
@@ -27,26 +27,26 @@ const Checkout = () => {
                     className="breadcrumb-ite total-price active"
                     aria-current="page"
                   >
-                    Information
+                   Informação
                   </li>
                   &nbsp; /
                   <li className="breadcrumb-item total-price active">
-                    Shipping
+                    Envio
                   </li>
                   &nbsp; /
                   <li
                     className="breadcrumb-item total-price active"
                     aria-current="page"
                   >
-                    Payment
+                    Pagamento
                   </li>
                 </ol>
               </nav>
-              <h4 className="title total">Contact Information</h4>
+              <h4 className="title total">Informações de Contato</h4>
               <p className="user-details total">
-                Navdeep Dahiya (monud0232@gmail.com)
+                Maicon Douglas (maiiconpk@gmail.com)
               </p>
-              <h4 className="mb-3">Shipping Address</h4>
+              <h4 className="mb-3">Endereço para envio</h4>
               <form
                 action=""
                 className="d-flex gap-15 flex-wrap justify-content-between"
@@ -54,56 +54,56 @@ const Checkout = () => {
                 <div className="w-100">
                   <select name="" className="form-control form-select" id="">
                     <option value="" selected disabled>
-                      Select Country
+                    Selecione o pais
                     </option>
                   </select>
                 </div>
                 <div className="flex-grow-1">
                   <input
                     type="text"
-                    placeholder="First Name"
+                    placeholder="Primeiro nome"
                     className="form-control"
                   />
                 </div>
                 <div className="flex-grow-1">
                   <input
                     type="text"
-                    placeholder="Last Name"
+                    placeholder="Sobrenome"
                     className="form-control"
                   />
                 </div>
                 <div className="w-100">
                   <input
                     type="text"
-                    placeholder="Address"
+                    placeholder="Endereço"
                     className="form-control"
                   />
                 </div>
                 <div className="w-100">
                   <input
                     type="text"
-                    placeholder="Apartment, Suite ,etc"
+                    placeholder="Apartamento, Suíte, etc"
                     className="form-control"
                   />
                 </div>
                 <div className="flex-grow-1">
                   <input
                     type="text"
-                    placeholder="City"
+                    placeholder="Cidade"
                     className="form-control"
                   />
                 </div>
                 <div className="flex-grow-1">
                   <select name="" className="form-control form-select" id="">
                     <option value="" selected disabled>
-                      Select State
+                      Selecione o estado
                     </option>
                   </select>
                 </div>
                 <div className="flex-grow-1">
                   <input
                     type="text"
-                    placeholder="Zipcode"
+                    placeholder="CEP"
                     className="form-control"
                   />
                 </div>
@@ -111,10 +111,10 @@ const Checkout = () => {
                   <div className="d-flex justify-content-between align-items-center">
                     <Link to="/cart" className="text-dark">
                       <BiArrowBack className="me-2" />
-                      Return to Cart
+                      Voltar ao Carrinho
                     </Link>
                     <Link to="/cart" className="button">
-                      Continue to Shipping
+                    Continuar para envio
                     </Link>
                   </div>
                 </div>
@@ -135,28 +135,28 @@ const Checkout = () => {
                     <img className="img-fluid" src={watch} alt="product" />
                   </div>
                   <div>
-                    <h5 className="total-price">gfdhgf</h5>
-                    <p className="total-price">s / #agfgfd</p>
+                    <h5 className="total-price">Relogio de Luxo</h5>
+                    <p className="total-price">s / #Grife</p>
                   </div>
                 </div>
                 <div className="flex-grow-1">
-                  <h5 className="total">$ 100</h5>
+                  <h5 className="total">R$ 9000</h5>
                 </div>
               </div>
             </div>
             <div className="border-bottom py-4">
               <div className="d-flex justify-content-between align-items-center">
                 <p className="total">Subtotal</p>
-                <p className="total-price">$ 10000</p>
+                <p className="total-price">R$ 9000</p>
               </div>
               <div className="d-flex justify-content-between align-items-center">
-                <p className="mb-0 total">Shipping</p>
-                <p className="mb-0 total-price">$ 10000</p>
+                <p className="mb-0 total">Envio</p>
+                <p className="mb-0 total-price">R$ 100</p>
               </div>
             </div>
             <div className="d-flex justify-content-between align-items-center border-bootom py-4">
               <h4 className="total">Total</h4>
-              <h5 className="total-price">$ 10000</h5>
+              <h5 className="total-price">R$ 9100</h5>
             </div>
           </div>
         </div>
