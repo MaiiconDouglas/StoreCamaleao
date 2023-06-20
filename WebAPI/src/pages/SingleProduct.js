@@ -17,7 +17,7 @@ const SingleProduct = () => {
     height: 600,
     zoomWidth: 600,
 
-    img: "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg",
+    img: "../img/camiseta_pronta.jpg",
   };
 
   const [orderedProduct, setorderedProduct] = useState(true);
@@ -33,8 +33,8 @@ const SingleProduct = () => {
   const closeModal = () => {};
   return (
     <>
-      <Meta title={"Product Name"} />
-      <BreadCrumb title="Product Name" />
+      <Meta title={"Camaleão - Camiseta Exclusiva "} />
+      <BreadCrumb title="Camiseta Exclusiva" />
       <Container class1="main-product-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-6">
@@ -46,43 +46,31 @@ const SingleProduct = () => {
             <div className="other-product-images d-flex flex-wrap gap-15">
               <div>
                 <img
-                  src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
+                  src="../img/camiseta_pronta.jpg"
                   className="img-fluid"
                   alt=""
                 />
               </div>
+            
               <div>
-                <img
-                  src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
+              <img
+                  src="../img/camiseta_pronta.jpg"
                   className="img-fluid"
                   alt=""
                 />
               </div>
-              <div>
-                <img
-                  src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-              </div>
+              
             </div>
           </div>
           <div className="col-6">
             <div className="main-product-details">
               <div className="border-bottom">
                 <h3 className="title">
-                  Kids Headphones Bulk 10 Pack Multi Colored For Students
+                 Camiseta Exclusiva
                 </h3>
               </div>
               <div className="border-bottom py-3">
-                <p className="price">$ 100</p>
+                <p className="price">R$ 100,00</p>
                 <div className="d-flex align-items-center gap-10">
                   <ReactStars
                     count={5}
@@ -91,23 +79,23 @@ const SingleProduct = () => {
                     edit={false}
                     activeColor="#ffd700"
                   />
-                  <p className="mb-0 t-review">( 2 Reviews )</p>
+                  <p className="mb-0 t-review">( 2 Avaliações )</p>
                 </div>
                 <a className="review-btn" href="#review">
-                  Write a Review
+                 Escreva uma crítica
                 </a>
               </div>
               <div className=" py-3">
                 <div className="d-flex gap-10 align-items-center my-2">
-                  <h3 className="product-heading">Type :</h3>
+                  <h3 className="product-heading">Tipo :</h3>
                   <p className="product-data">Watch</p>
                 </div>
                 <div className="d-flex gap-10 align-items-center my-2">
-                  <h3 className="product-heading">Brand :</h3>
+                  <h3 className="product-heading">Marca :</h3>
                   <p className="product-data">Havells</p>
                 </div>
                 <div className="d-flex gap-10 align-items-center my-2">
-                  <h3 className="product-heading">Category :</h3>
+                  <h3 className="product-heading">Categoria:</h3>
                   <p className="product-data">Watch</p>
                 </div>
                 <div className="d-flex gap-10 align-items-center my-2">
@@ -115,11 +103,11 @@ const SingleProduct = () => {
                   <p className="product-data">Watch</p>
                 </div>
                 <div className="d-flex gap-10 align-items-center my-2">
-                  <h3 className="product-heading">Availablity :</h3>
-                  <p className="product-data">In Stock</p>
+                  <h3 className="product-heading">Disponibilidade:</h3>
+                  <p className="product-data">Em estoque</p>
                 </div>
                 <div className="d-flex gap-10 flex-column mt-2 mb-3">
-                  <h3 className="product-heading">Size :</h3>
+                  <h3 className="product-heading">Tamanho:</h3>
                   <div className="d-flex flex-wrap gap-15">
                     <span className="badge border border-1 bg-white text-dark border-secondary">
                       S
@@ -136,11 +124,11 @@ const SingleProduct = () => {
                   </div>
                 </div>
                 <div className="d-flex gap-10 flex-column mt-2 mb-3">
-                  <h3 className="product-heading">Color :</h3>
+                  <h3 className="product-heading">Cor:</h3>
                   <Color />
                 </div>
                 <div className="d-flex align-items-center gap-15 flex-row mt-2 mb-3">
-                  <h3 className="product-heading">Quantity :</h3>
+                  <h3 className="product-heading">Quantidade:</h3>
                   <div className="">
                     <input
                       type="number"
@@ -159,33 +147,33 @@ const SingleProduct = () => {
                       data-bs-target="#staticBackdrop"
                       type="button"
                     >
-                      Add to Cart
+                     Adicionar ao Carrinho
                     </button>
-                    <button className="button signup">Buy It Now</button>
+                    <button className="button signup">Compre Agora</button>
                   </div>
                 </div>
                 <div className="d-flex align-items-center gap-15">
                   <div>
                     <a href="">
-                      <TbGitCompare className="fs-5 me-2" /> Add to Compare
+                      <TbGitCompare className="fs-5 me-2" /> Adicionar ao Comparar
                     </a>
                   </div>
                   <div>
                     <a href="">
-                      <AiOutlineHeart className="fs-5 me-2" /> Add to Wishlist
+                      <AiOutlineHeart className="fs-5 me-2" /> Adicionar a Lista de Desejos
                     </a>
                   </div>
                 </div>
                 <div className="d-flex gap-10 flex-column  my-3">
-                  <h3 className="product-heading">Shipping & Returns :</h3>
+                  <h3 className="product-heading">Envios e Devoluções:</h3>
                   <p className="product-data">
-                    Free shipping and returns available on all orders! <br /> We
-                    ship all US domestic orders within
-                    <b>5-10 business days!</b>
+                    Frete grátis e devoluções disponíveis em todos os pedidos! <br /> Nós
+                     enviamos todos os pedidos em todo territorio nacional 
+                    <b>5-10 dias úteis!</b>
                   </p>
                 </div>
                 <div className="d-flex gap-10 align-items-center my-3">
-                  <h3 className="product-heading">Product Link:</h3>
+                  <h3 className="product-heading">Link do Produto:</h3>
                   <a
                     href="javascript:void(0);"
                     onClick={() => {
@@ -194,7 +182,7 @@ const SingleProduct = () => {
                       );
                     }}
                   >
-                    Copy Product Link
+                    Copiar link do produto
                   </a>
                 </div>
               </div>
@@ -205,7 +193,7 @@ const SingleProduct = () => {
       <Container class1="description-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
-            <h4>Description</h4>
+            <h4>Descrição</h4>
             <div className="bg-white p-3">
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -220,11 +208,11 @@ const SingleProduct = () => {
       <Container class1="reviews-wrapper home-wrapper-2">
         <div className="row">
           <div className="col-12">
-            <h3 id="review">Reviews</h3>
+            <h3 id="review">Avaliações</h3>
             <div className="review-inner-wrapper">
               <div className="review-head d-flex justify-content-between align-items-end">
                 <div>
-                  <h4 className="mb-2">Customer Reviews</h4>
+                  <h4 className="mb-2">Avaliações de Clientes</h4>
                   <div className="d-flex align-items-center gap-10">
                     <ReactStars
                       count={5}
@@ -233,19 +221,19 @@ const SingleProduct = () => {
                       edit={false}
                       activeColor="#ffd700"
                     />
-                    <p className="mb-0">Based on 2 Reviews</p>
+                    <p className="mb-0">Baseado em 2 comentários</p>
                   </div>
                 </div>
                 {orderedProduct && (
                   <div>
-                    <a className="text-dark text-decoration-underline" href="">
-                      Write a Review
-                    </a>
+                    <rite a Reviewa className="text-dark text-decoration-underline" href="">
+                      Escreva uma Crítica
+                    </rite>
                   </div>
                 )}
               </div>
               <div className="review-form py-4">
-                <h4>Write a Review</h4>
+                <h4>Escreva uma Crítica</h4>
                 <form action="" className="d-flex flex-column gap-15">
                   <div>
                     <ReactStars
@@ -267,14 +255,14 @@ const SingleProduct = () => {
                     ></textarea>
                   </div>
                   <div className="d-flex justify-content-end">
-                    <button className="button border-0">Submit Review</button>
+                    <button className="button border-0">Enviar</button>
                   </div>
                 </form>
               </div>
               <div className="reviews mt-4">
                 <div className="review">
                   <div className="d-flex gap-10 align-items-center">
-                    <h6 className="mb-0">Navdeep</h6>
+                    <h6 className="mb-0">Maicon Douglas</h6>
                     <ReactStars
                       count={5}
                       size={24}
@@ -299,7 +287,7 @@ const SingleProduct = () => {
       <Container class1="popular-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
-            <h3 className="section-heading">Our Popular Products</h3>
+            <h3 className="section-heading">Nossos Produtos Populares</h3>
           </div>
         </div>
         <div className="row">
