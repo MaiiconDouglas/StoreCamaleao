@@ -11,7 +11,6 @@ const OurStore = () => {
   return (
     <>
       <Meta title={"Our Store"} />
-      <BreadCrumb title="Our Store" />
       <Container class1="store-wrapper home-wrapper-2 py-5">
         <div className="row">
           <div className="col-3">

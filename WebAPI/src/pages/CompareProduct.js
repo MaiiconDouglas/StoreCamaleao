@@ -2,15 +2,16 @@ import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import Color from "../components/Color";
 import Meta from "../components/Meta";
-import watch from "../images/watch.jpg";
+import watch from "../images/watch-1.avif";
 import Container from "../components/Container";
 
 const CompareProduct = () => {
   return (
     <>
-      <Meta title={"Compare Products"} />
+      <Meta title={"Camaleão - Comparar Produtos"} />
       
-      <BreadCrumb title="Compare Products" />
+      <BreadCrumb title=" Comparar os Produtos" />
+
       <Container class1="compare-product-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-3">
@@ -21,42 +22,44 @@ const CompareProduct = () => {
                 className="position-absolute cross img-fluid"
               />
               <div className="product-card-image">
-                <img src="images/watch.jpg" alt="watch" />
+              <img src={watch} alt="watch" />
               </div>
               <div className="compare-product-details">
                 <h5 className="title">
-                  Honor T1 7.0 1 GB RAM 8 GB ROM 7 Inch With Wi-Fi+3G Tablet
+               
                 </h5>
-                <h6 className="price mb-3 mt-3">$ 100</h6>
+                <h6 className="price mb-3 mt-3">R$ 200,00 </h6>
 
                 <div>
                   <div className="product-detail">
-                    <h5>Brand:</h5>
-                    <p>Havels</p>
+                    <h5>Marca:</h5>
+                    <p>Caneca</p>
                   </div>
                   <div className="product-detail">
-                    <h5>Type:</h5>
-                    <p>Watch</p>
+                    <h5>Tipo:</h5>
+                    <p>Camiseta</p>
                   </div>
                   <div className="product-detail">
-                    <h5>Availablity:</h5>
-                    <p>In Stock</p>
+                    <h5>Detalhes:</h5>
+                    <p>Em estoque</p>
                   </div>
                   <div className="product-detail">
-                    <h5>Color:</h5>
+                    <h5>Cor:</h5>
                     <Color />
                   </div>
                   <div className="product-detail">
-                    <h5>Size:</h5>
+                    <h5>Tamanho:</h5>
                     <div className="d-flex gap-10">
-                      <p>S</p>
-                      <p>M</p>
+                      <p>Feminino</p>
+                      <p>Masculino</p>
                     </div>
                   </div>
+
                 </div>
               </div>
             </div>
           </div>
+
           <div className="col-3">
             <div className="compare-product-card position-relative">
               <img
@@ -69,32 +72,32 @@ const CompareProduct = () => {
               </div>
               <div className="compare-product-details">
                 <h5 className="title">
-                  Honor T1 7.0 1 GB RAM 8 GB ROM 7 Inch With Wi-Fi+3G Tablet
+                 Caneca Personalizada
                 </h5>
-                <h6 className="price mb-3 mt-3">$ 100</h6>
+                <h6 className="price mb-3 mt-3">R$ 100,00 </h6>
 
                 <div>
                   <div className="product-detail">
-                    <h5>Brand:</h5>
-                    <p>Havels</p>
+                    <h5>Marca:</h5>
+                    <p>Caneca</p>
                   </div>
                   <div className="product-detail">
-                    <h5>Type:</h5>
-                    <p>Watch</p>
+                    <h5>Tipo:</h5>
+                    <p>Caneca</p>
                   </div>
                   <div className="product-detail">
-                    <h5>Availablity:</h5>
-                    <p>In Stock</p>
+                    <h5>Detalhes:</h5>
+                    <p>Em estoque</p>
                   </div>
                   <div className="product-detail">
-                    <h5>Color:</h5>
+                    <h5>Cor:</h5>
                     <Color />
                   </div>
                   <div className="product-detail">
-                    <h5>Size:</h5>
+                    <h5>Tamanho:</h5>
                     <div className="d-flex gap-10">
-                      <p>S</p>
-                      <p>M</p>
+                      <p>Feminino</p>
+                      <p>Masculino</p>
                     </div>
                   </div>
                 </div>

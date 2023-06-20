@@ -14,14 +14,14 @@ const Header = () => {
           <div className="row">
             <div className="col-6">
               <p className="text-white mb-0">
-                Não perca tempo confira nossas promoções, 
+                Não perca tempo confira nossas promoções
               </p>
             </div>
             <div className="col-6">
               <p className="text-end text-white mb-0">
                 Contato:
-                <a className="text-white" href="tel:+55 16994575967">
-                  +55 16994575967
+                <a className="text-white" href="tel:+5516997864412">
+                    +55 16 99786-4412
                 </a>
               </p>
             </div>
@@ -131,17 +131,17 @@ const Header = () => {
                     >
                       <li>
                         <Link className="dropdown-item text-white" to="">
-                          Action
+                         HOME
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item text-white" to="">
-                          Another action
+                        HOME
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item text-white" to="">
-                          Something else here
+                         HOME
                         </Link>
                       </li>
                     </ul>
@@ -150,8 +150,7 @@ const Header = () => {
                 <div className="menu-links">
                   <div className="d-flex align-items-center gap-15">
                     <NavLink to="/">Home</NavLink>
-                    <NavLink to="/product">Loja</NavLink>
-                    <NavLink to="/blogs">Blogs</NavLink>
+                    <NavLink to="/product">Loja</NavLink>                    
                     <NavLink to="/contact">Contato</NavLink>
                   </div>
                 </div>
