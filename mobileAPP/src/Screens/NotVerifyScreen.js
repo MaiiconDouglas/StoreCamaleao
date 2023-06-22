@@ -1,11 +1,22 @@
 import React from 'react'
-import {Text,View} from 'native-base'
+import {Box,
+        Center,
+        Image,
+        } from 'native-base'
+import { Colors } from '../color';
+
 
 function NotVerifyScreen() {
   return (
-    <View>
-        <Text>NotVerifyScreen</Text>
-    </View>
+    <Box flex={1} bg="#48b600"  safeAreaTop>
+        <Center w="full" h={250} >
+          <Image source={require("../img/assets/Favicon.png")}
+          alt="Logo Marca"
+          size="lg"
+          />
+        </Center>
+
+    </Box>
   );
 }
 
