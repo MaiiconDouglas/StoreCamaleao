@@ -1,13 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
-import { Box, NativeBaseProvider, Text } from 'react-native';
-import HomeScreen from './src/Screens/HomeScreen';
+import React from "react";
+// 1. import `NativeBaseProvider` component
+import { NativeBaseProvider, Text, Box } from "native-base";
 
 export default function App() {
+  // 2. Use at the root of your app
   return (
-  <NativeBaseProvider>
-    <Box flex={1} bg="#fff" alignItems="center" justifyContent="Center">
-      <Text>Hello World</Text>
-    </Box>
-  </NativeBaseProvider>
+    <NativeBaseProvider>
+      <Box flex={1} bg="#fff" alignItems="center" justifyContent="center">
+        <Text>Aplicativo Funcionando!</Text>
+      </Box>
+    </NativeBaseProvider>
   );
 }
