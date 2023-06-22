@@ -1,20 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Box, NativeBaseProvider, Text } from 'react-native';
+import HomeScreen from './src/Screens/HomeScreen';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Hello World, Vitoria Linda </Text>
-      <StatusBar style="auto" />
-    </View>
+  <NativeBaseProvider>
+    <Box flex={1} bg="#fff" alignItems="center" justifyContent="Center">
+      <Text>Hello World</Text>
+    </Box>
+  </NativeBaseProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
