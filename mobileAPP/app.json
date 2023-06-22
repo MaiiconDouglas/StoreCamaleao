@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "Camaleão Store",
-    "slug": "Camaleão Store",
+    "name": "Cammaleão Store - APP",
+    "slug": "Cammaleão Store - APP",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/favicon.jpeg",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#87C65C"
+      "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,8 +19,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/favicon.jpeg",
-        "backgroundColor": "#87C65C"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
       }
     },
     "web": {
