@@ -12,7 +12,6 @@ const Home = () => {
 
     <Container class1="home-wrapper-1 py-5">
     
-
     </Container>      
      
       
@@ -65,7 +64,9 @@ const Home = () => {
           <ProductCard />
           <ProductCard />
           <ProductCard />
+
         </div>
+        
       </Container>
 
    
@@ -83,6 +84,7 @@ const Home = () => {
           <SpecialProduct />
         </div>
       </Container>
+
       <Container class1="popular-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
@@ -96,7 +98,7 @@ const Home = () => {
           <ProductCard />
         </div>
       </Container>
-
+{/*
       <Container class1="marque-wrapper home-wrapper-2 py-5">
         <div className="row">
           <div className="col-12">
@@ -133,7 +135,7 @@ const Home = () => {
           </div>
         </div>
 
-      </Container>
+      </Container> */}
 
 
     </>

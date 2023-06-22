@@ -8,7 +8,7 @@ import Color from "../components/Color";
 import { TbGitCompare } from "react-icons/tb";
 import { AiOutlineHeart } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import watch from "../images/watch.jpg";
+import watch from "../img/camisaTres.jpeg";
 import Container from "../components/Container";
 
 const SingleProduct = () => {
@@ -17,7 +17,7 @@ const SingleProduct = () => {
     height: 600,
     zoomWidth: 600,
 
-    img: "../img/camiseta_pronta.jpg",
+    img: "../img/camisaTres.jpeg",
   };
 
   const [orderedProduct, setorderedProduct] = useState(true);
@@ -33,7 +33,7 @@ const SingleProduct = () => {
   const closeModal = () => {};
   return (
     <>
-      <Meta title={"Camaleão - Camiseta Exclusiva "} />
+      <Meta title={"Cammaleão - Camiseta Exclusiva "} />
       <BreadCrumb title="Camiseta Exclusiva" />
       <Container class1="main-product-wrapper py-5 home-wrapper-2">
         <div className="row">
@@ -42,23 +42,24 @@ const SingleProduct = () => {
               <div>
                 <ReactImageZoom {...props} />
               </div>
-            </div>
+          
+   {/*         </div>
             <div className="other-product-images d-flex flex-wrap gap-15">
               <div>
                 <img
-                  src="../img/camiseta_pronta.jpg"
+                  src="../img/camisaTres.jpeg"
                   className="img-fluid"
                   alt=""
                 />
-              </div>
+              </div>*/}  
             
-              <div>
+        {/*     <div>
               <img
-                  src="../img/camiseta_pronta.jpg"
+                  src="../img/camisaTres.jpeg"
                   className="img-fluid"
                   alt=""
                 />
-              </div>
+              </div>*/}  
               
             </div>
           </div>
@@ -66,11 +67,11 @@ const SingleProduct = () => {
             <div className="main-product-details">
               <div className="border-bottom">
                 <h3 className="title">
-                 Camiseta Exclusiva
+                Camiseta Exclusiva 
                 </h3>
               </div>
               <div className="border-bottom py-3">
-                <p className="price">R$ 100,00</p>
+                <p className="price">R$ 45,00</p>
                 <div className="d-flex align-items-center gap-10">
                   <ReactStars
                     count={5}
@@ -88,19 +89,19 @@ const SingleProduct = () => {
               <div className=" py-3">
                 <div className="d-flex gap-10 align-items-center my-2">
                   <h3 className="product-heading">Tipo :</h3>
-                  <p className="product-data">Watch</p>
+                  <p className="product-data">Tecido Poliéster </p>
                 </div>
                 <div className="d-flex gap-10 align-items-center my-2">
                   <h3 className="product-heading">Marca :</h3>
-                  <p className="product-data">Havells</p>
+                  <p className="product-data">Personalizada</p>
                 </div>
                 <div className="d-flex gap-10 align-items-center my-2">
                   <h3 className="product-heading">Categoria:</h3>
-                  <p className="product-data">Watch</p>
+                  <p className="product-data">Outros</p>
                 </div>
                 <div className="d-flex gap-10 align-items-center my-2">
                   <h3 className="product-heading">Tags :</h3>
-                  <p className="product-data">Watch</p>
+                  <p className="product-data">Camiseta</p>
                 </div>
                 <div className="d-flex gap-10 align-items-center my-2">
                   <h3 className="product-heading">Disponibilidade:</h3>
@@ -196,10 +197,16 @@ const SingleProduct = () => {
             <h4>Descrição</h4>
             <div className="bg-white p-3">
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Tenetur nisi similique illum aut perferendis voluptas, quisquam
-                obcaecati qui nobis officia. Voluptatibus in harum deleniti
-                labore maxime officia esse eos? Repellat?
+                    <p>
+                    Nossas camisetas personalizados são feitos pelo método de sublimação, técnica em que a tinta que está no papel passa do estado sólido para o gasoso enquanto estampa a camiseta, o que garante que o produto não perca a cor e desbote com o tempo ou saia na lavagem.
+                    </p>
+                    <p>TECIDO: 100% Poliéster (Semitranslúcido).</p>
+                    <p>VERIFICAR TABELA DE TAMANHOS ANTES DA COMPRA, NÃO TROCAMOS ESTE PRODUTO CASO HAJA ERRO DE NUMERAÇÃO</p>
+                    <p>TEMPO DE ENTREGA: Preparamos e enviamos em até 3 dias úteis na transportadora. </p>
+                    <p>Caso seja uma arte nova, enviar no mesmo dia da comprar para não ter atrasos no envio.</p>
+                    <p>EMBALAGEM: Muito bem embaladas em caixa própria.</p>
+                    <p>Ainda está em dúvida? Pode nos chamar, responderemos assim que possível!</p>
+
               </p>
             </div>
           </div>
@@ -272,11 +279,7 @@ const SingleProduct = () => {
                     />
                   </div>
                   <p className="mt-3">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Consectetur fugit ut excepturi quos. Id reprehenderit
-                    voluptatem placeat consequatur suscipit ex. Accusamus dolore
-                    quisquam deserunt voluptate, sit magni perspiciatis quas
-                    iste?
+                   Produto muito bom, de otima qualidade, recomendo!
                   </p>
                 </div>
               </div>
@@ -284,6 +287,7 @@ const SingleProduct = () => {
           </div>
         </div>
       </Container>
+      
       <Container class1="popular-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
@@ -320,16 +324,15 @@ const SingleProduct = () => {
                   <img src={watch} className="img-fluid" alt="product imgae" />
                 </div>
                 <div className="d-flex flex-column flex-grow-1 w-50">
-                  <h6 className="mb-3">Apple Watch</h6>
-                  <p className="mb-1">Quantity: asgfd</p>
-                  <p className="mb-1">Color: asgfd</p>
-                  <p className="mb-1">Size: asgfd</p>
+                  <h6 className="mb-3">    Camiseta Exclusiva </h6>
+                  <p className="mb-1">     Quantidade: 01</p>
+                  <p className="mb-1">     Tamanho: M</p>
                 </div>
               </div>
             </div>
             <div className="modal-footer border-0 py-0 justify-content-center gap-30">
               <button type="button" className="button" data-bs-dismiss="modal">
-                View My Cart
+                   Ver meu carrinho
               </button>
               <button type="button" className="button signup">
                 Checkout
@@ -343,7 +346,7 @@ const SingleProduct = () => {
                   closeModal();
                 }}
               >
-                Continue To Shopping
+               Continuar a Comprar
               </Link>
             </div>
           </div>

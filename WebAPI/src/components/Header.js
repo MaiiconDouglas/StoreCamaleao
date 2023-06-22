@@ -34,7 +34,7 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
-                <Link className="text-white">Camaleão Store</Link>
+                <Link className="text-white" to="">Cammaleão Store</Link>                
               </h2>
             </div>
 
@@ -66,17 +66,18 @@ const Header = () => {
                     </p>
                   </Link>
                 </div>
+
                 <div>
                   <Link
                     to="/wishlist"
-                    className="d-flex align-items-center gap-10 text-white"
-                  >
+                    className="d-flex align-items-center gap-10 text-white" >
                     <img src={wishlist} alt="wishlist" />
                     <p className="mb-0">
                       Favoritos <br />
                     </p>
-                  </Link>
+                  </Link>                  
                 </div>
+
                 <div>
                   <Link
                     to="/login"
@@ -88,9 +89,10 @@ const Header = () => {
                     </p>
                   </Link>
                 </div>
+
                 <div>
                   <Link
-                    to="/cart"
+                    to="/Checkout"
                     className="d-flex align-items-center gap-10 text-white"
                   >
                     <img src={cart} alt="cart" />
@@ -99,13 +101,14 @@ const Header = () => {
                       <p className="mb-0"></p>
                     </div>
                   </Link>
+                  
                 </div>
               </div>
             </div>
           </div>
         </div>
       </header>
-
+{/*
       <header className="header-bottom py-3">
         <div className="container-xxl">
           <div className="row">
@@ -158,7 +161,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </header>
+      </header>*/}
     </>
   );
 };

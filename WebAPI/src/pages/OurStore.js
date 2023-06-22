@@ -63,6 +63,7 @@ const OurStore = () => {
                     />
                     <label htmlFor="floatingInput">De</label>
                   </div>
+                  
                   <div className="form-floating">
                     <input
                       type="email"
