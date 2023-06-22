@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BiArrowBack } from "react-icons/bi";
-import watch from "../images/watch.jpg";
+import watch from "../img/camisaTres.jpeg";
 import Container from "../components/Container";
 
 const Checkout = () => {
@@ -11,7 +11,7 @@ const Checkout = () => {
         <div className="row">
           <div className="col-7">
             <div className="checkout-left-data">
-              <h3 className="website-name">Camaleão Store </h3>
+              <h3 className="website-name">Cammaleão Store - Checkout</h3>
               <nav
                 style={{ "--bs-breadcrumb-divider": ">" }}
                 aria-label="breadcrumb"
@@ -121,6 +121,7 @@ const Checkout = () => {
               </form>
             </div>
           </div>
+
           <div className="col-5">
             <div className="border-bottom py-4">
               <div className="d-flex gap-10 mb-2 align-align-items-center">
@@ -132,10 +133,10 @@ const Checkout = () => {
                     >
                       1
                     </span>
-                    <img className="img-fluid" src={watch} alt="product" />
+                    <img className="img-fluid" src={watch} alt="produtos" />
                   </div>
                   <div>
-                    <h5 className="total-price">Relogio de Luxo</h5>
+                    <h5 className="total-price">Camiseta Personalizada</h5>
                     <p className="total-price">s / #Grife</p>
                   </div>
                 </div>
@@ -144,6 +145,7 @@ const Checkout = () => {
                 </div>
               </div>
             </div>
+
             <div className="border-bottom py-4">
               <div className="d-flex justify-content-between align-items-center">
                 <p className="total">Subtotal</p>

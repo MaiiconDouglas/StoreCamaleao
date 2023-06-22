@@ -16,7 +16,7 @@ const SpecialProduct = () => {
             <div className="special-product-content">
               <h5 className="brand">Camisetas</h5>
               <h6 className="title">
-                Kit Croppeds ou Camisetas 
+                Camisetas Exclusivas
               </h6>
 
               <ReactStars
@@ -28,7 +28,7 @@ const SpecialProduct = () => {
               />
 
               <p className="price">
-                <span className="red-p">R$ 100,00 </span> &nbsp; <strike>R$ 200,00</strike>
+                <span className="red-p">R$ 35,00 </span> &nbsp; <strike>R$ 45,00</strike>
               </p>
               
               <div className="discount-till d-flex align-items-center gap-10">

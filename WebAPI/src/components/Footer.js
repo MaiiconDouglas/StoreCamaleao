@@ -14,6 +14,7 @@ const Footer = () => {
                 <h2 className="mb-0 text-white">Inscreva-se</h2>
               </div>
             </div>
+
             <div className="col-7">
               <div className="input-group">
                 <input
@@ -24,9 +25,10 @@ const Footer = () => {
                   aria-describedby="basic-addon2"
                 />
                 <span className="input-group-text p-2" id="basic-addon2">
-                  Subscribe
+                  Se inscrever
                 </span>
               </div>
+
             </div>
           </div>
         </div>
@@ -53,6 +55,7 @@ const Footer = () => {
                 >
                   teste@gmail.com
                 </a>
+               
                 <div className="social_icons d-flex align-items-center gap-30 mt-4">
                   <a className="text-white" href="#">
                     <BsLinkedin className="fs-4" />
@@ -69,8 +72,9 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-3">
-              <h4 className="text-white mb-4">Information</h4>
+              <h4 className="text-white mb-4">Informação</h4>
               <div className="footer-link d-flex flex-column">
                 <Link to="/privacy-policy" className="text-white py-2 mb-1">
                   Política de Privacidade
@@ -90,6 +94,7 @@ const Footer = () => {
                 <Link className="text-white py-2 mb-1">Blogs</Link>
               </div>
             </div>
+
             <div className="col-3">
               <h4 className="text-white mb-4">Minha Conta</h4>
               <div className="footer-link d-flex flex-column">
@@ -98,6 +103,7 @@ const Footer = () => {
                 <Link className="text-white py-2 mb-1">Contato</Link>
               </div>
             </div>
+            
             <div className="col-2">
               <h4 className="text-white mb-4">Links Rápidos</h4>
               <div className="footer-link d-flex flex-column">
@@ -115,7 +121,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-12">
               <p className="text-center mb-0 text-white">
-                &copy; {new Date().getFullYear()}; Powered By Camaleão Store
+                &copy; {new Date().getFullYear()}; Cammaleão Store
               </p>
             </div>
           </div>

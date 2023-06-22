@@ -6,7 +6,7 @@ import Container from "../components/Container";
 const Wishlist = () => {
   return (
     <>
-      <Meta title={"Camaleão - Lista de Desejos"} />
+      <Meta title={"Cammaleão - Lista de Desejos"} />
 
       <Container class1="wishlist-wrapper home-wrapper-2 py-5">
         <div className="row">
@@ -31,6 +31,7 @@ const Wishlist = () => {
               </div>
             </div>
           </div>
+
           <div className="col-3">
             <div className="wishlist-card position-relative">
               <img
@@ -38,6 +39,7 @@ const Wishlist = () => {
                 alt="cross"
                 className="position-absolute cross img-fluid"
               />
+              
               <div className="wishlist-card-image">
                 <img
                  src="../img/canecaUm.jpeg"
@@ -45,6 +47,7 @@ const Wishlist = () => {
                   alt="watch"
                 />
               </div>
+
               <div className="py-3 px-3">
                 <h5 className="title">
                   Canecas Exclusivas
