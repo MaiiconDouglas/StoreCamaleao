@@ -1,74 +1,66 @@
-import {   
-    ScrollView,  
-    Pressable, 
-    Flex,     
-    Box, 
-    Heading, 
-    Text, 
-    Image 
-}
-from "native-base";
-import React from 'react'
+import {
+  Box,
+  Flex,
+  Heading,
+  Image,
+  Pressable,
+  ScrollView,
+  Text,
+} from "native-base";
+import React from "react";
 import products from "../data/Products";
 import Colors from "../color";
-import Rating from './Rating';
+import Rating from "./Rating";
+import { useNavigation } from "@react-navigation/native";
 
 function HomeProducts() {
-    return(
-       <ScrollView 
-       flex={1}
-       showsVerticalScrollIndicator={false}
-       >
-        <Flex 
-        flexWrap="wrap" 
-        direction="row" 
-        justifyContent="space-between" 
+  const navigation = useNavigation();
+  return (
+    <ScrollView flex={1} showsVerticalScrollIndicator={false}>
+      <Flex
+        flexWrap="wrap"
+        direction="row"
+        justifyContent="space-between"
         px={6}
-       >
-                
-        {products.map((products) => (  
-             
-        <Pressable 
-            key={products._id} 
-            w="47%" 
+      >
+        {products.map((product) => (
+          <Pressable
+            onPress={() => navigation.navigate("Single", product)}
+            key={product._id}
+            w="47%"
             bg={Colors.white}
             rounded="md"
-            shadow={2} 
+            shadow={2}
             pt={0.3}
-            my={3} 
+            my={3}
             pb={2}
-            overflow="hidden"       
-            >
+            overflow="hidden"
+          >
+            
+            <Image
+              source={{ uri: product.image }}
+              alt={product.name}
+              w="full"
+              h={24}
+              resizeMode="contain"
+            />
 
-        <Image 
-                source={{ uri: products.image }}
-                alt={products.name}
-                w="full"
-                h={24}
-                resizeMode='contain' 
-                />
-         
             <Box px={4} pt={1}>
-                <Heading size="sm" bold>
-                    {products.price}
-                </Heading>
+              <Heading size="sm" bold>
+                R$: {product.price},00
+              </Heading>
 
-                <Text 
-                fontSize={10} 
-                mt={1} 
-                isTruncated 
-                w="full">
-                    {products.name}
-                </Text>
-                
-                {/* Rating */}
-                <Rating value={products.rating} />                
+              <Text fontSize={10} mt={1} isTruncated w="full">
+                {product.name}
+              </Text>
+
+              <Rating value={product.rating} />
             </Box>
-         </Pressable>
-        ))}            
-       </Flex>
-     </ScrollView>
-    );
+          </Pressable>
+        ))}
+      </Flex>
+    </ScrollView>
+  );
 }
 
 export default HomeProducts;

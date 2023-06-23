@@ -1,5 +1,5 @@
 const Colors = {
-  main: "#48b600",
+  main: "#48B600",
   white: "#FFFFFF",
   black: "#000000",
   lightBlack: "#BCBCBC",
@@ -12,6 +12,6 @@ const Colors = {
   blue: "#3B87F9",
   underline: "#E5E5E5",
   paypal: "#FFB730",
-}
+};
 
 export default Colors;
