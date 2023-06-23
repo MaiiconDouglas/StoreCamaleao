@@ -3,7 +3,7 @@ import { Pressable, ScrollView, Text } from 'react-native'
 
 function HomeProducts() {
     return(
-        <ScrollView flex={1} showsVerticalScrollIndicator={false}>
+        <ScrollView flex={1}>
             <Flex flexWrap="wrap"
             direction="row"
             justifyContent={"space-between"}
@@ -29,7 +29,6 @@ function HomeProducts() {
                         <Heading size="sm" bold>{product.price}</Heading>
                         <Text fontSize={10} mt={1} isTruncated w="full">{product.name}</Text>
                         {/* rating */}
-                        <Rating value={product.rating}/>
                         
                     </Box>
 

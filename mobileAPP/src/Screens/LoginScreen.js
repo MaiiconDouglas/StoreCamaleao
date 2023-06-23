@@ -41,7 +41,7 @@ function LoginScreen() {
 
             <Input
              InputLeftElement={
-              <Ionicons name="eye" size={20} color="#48b600" />              
+              <Ionicons name="eye" size={20} color={Colors.black} />              
              }
              variant="underline" 
              placeholder="********"
@@ -53,7 +53,7 @@ function LoginScreen() {
            _pressed={{
             bg:Colors.main,
            }}
-           my={30}  w="40%" rounded={50} bg="#48b600" _text={{
+           my={30}  w="40%" rounded={50} bg={Colors.main}_text={{
             color: Colors.white,
            }}>
              LOGIN

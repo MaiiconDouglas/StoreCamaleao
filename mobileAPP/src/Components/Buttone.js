@@ -6,7 +6,9 @@ function Buttone({
   bg, 
   color, 
   children, 
-  onPress})   {
+  onPress
+})  
+ {
   return (
    <Button w="full" h={55} mt={mt} rounded="full" bg={bg} _text={{
         color: color, fontWeight: 'bold'
