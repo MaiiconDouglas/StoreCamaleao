@@ -1,6 +1,6 @@
 import React from 'react';
-import {HStack} from "native-base";
-import {FontAwesome} from "@expo/vector-icons";
+import { HStack } from "native-base";
+import { FontAwesome } from "@expo/vector-icons";
 import Colors from "../color";
 
 function Rating({value,text}){

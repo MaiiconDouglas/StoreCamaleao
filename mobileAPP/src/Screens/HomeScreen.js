@@ -1,13 +1,22 @@
-import { Text, View } from "native-base";
+import { 
+    Box, 
+    Text, 
+    View 
+}
+from "native-base";
 import React from "react";
-
+import Colors from "../color";
+import HomeSearch from "../Components/HomeSearch";
+import HomeProducts from "../Components/HomeProducts";
 
 function HomeScreen() {
   return (
-    <View>
-        <Text>HomeScreen</Text>
-    </View>
+    <Box>
+       <Box flex={1} bg={Colors.SubGreen} />
+       <HomeSearch />
+       <HomeProducts />
+    </Box>
   );
 }
 
-export default HomeScreen
+export default HomeScreen;

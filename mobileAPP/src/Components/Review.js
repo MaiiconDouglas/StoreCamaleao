@@ -16,7 +16,7 @@ export class Review extends Component{
                         Usuário Doe
                    </Heading>
                    <Rating value={4}/>
-                   <Text mb={3}>12 Jan 2023 </Text>
+                   <Text mb={3}>23 Junho 2023 </Text>
                 </BOX>
             </BOX>
         )
