@@ -29,7 +29,7 @@ function HomeSearch() {
           bg: Colors.white,
         }}
       />
-      <Pressable ml={3} onPress={() => navigation.navigate("Carrinho")}>
+      <Pressable ml={3} onPress={() => navigation.navigate("Cart")}>
         <FontAwesome5 name="shopping-basket" size={24} color={Colors.white} />
         <Box
           px={1}

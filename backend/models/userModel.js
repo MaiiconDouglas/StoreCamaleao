@@ -1,6 +1,7 @@
 const mongoose = require("mongoose"); // Erase if already required
 
-// Declare the Schema of the Mongo model
+//Erase if already required
+//Declara o esquema do modelo MongoDB
 var userSchema = new mongoose.Schema(
   {
     firstname: {

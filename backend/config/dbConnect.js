@@ -1,11 +1,12 @@
-const { default: mongoose } = require("mongoose")
+const { default: mongoose } = require("mongoose");
+mongoose.set('strictQuery', false);
 
 const dbConnect = () => {
   try {
-  const conn = mongoose.connect(process.env.MONGODB_URL);
-  console.log("Database Connected com Success Fully");
+  const conn = mongoose.connect("mongodb://localhost:27017/cammaleao");
+  console.log("Banco de Dados Conectado com Sucesso!!");
 } catch(error) {
-  console.log("Database error")
+  console.log("Erro no Banco de Dados!")
   }
 };
 
