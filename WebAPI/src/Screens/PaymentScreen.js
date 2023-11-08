@@ -41,7 +41,7 @@ function PaymentScreen() {
       {/* Header */}
       <Center pb={15}>
         <Text color={Colors.white} fontSize={14} bold>
-        FORMA DE PAGAMENTO
+        Forma de Pagamento
         </Text>
       </Center>
 
@@ -91,7 +91,7 @@ function PaymentScreen() {
               color={Colors.white}
               mt={5}
             >
-              CONTINUAR
+              Continuar
             </Buttone>
             <Text italic textAlign="center">
             A forma de pagamento é <Text bold>PayPal</Text> por padrão

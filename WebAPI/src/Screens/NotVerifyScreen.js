@@ -15,10 +15,10 @@ function NotVerfiyScreen() {
       </Center>
       <VStack space={6} px={5} alignItems="center">
         <Buttone bg={Colors.black} color={Colors.white}>
-          REGISTRO
+          Registro
         </Buttone>
         <Buttone bg={Colors.white} color={Colors.black}>
-          LOGIN
+          Login
         </Buttone>
       </VStack>
     </Box>

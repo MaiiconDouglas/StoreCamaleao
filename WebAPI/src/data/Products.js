@@ -71,5 +71,17 @@ const products = [
     rating: 0,
     numReviews: 0,
   },
+  {
+    _id: "7",
+    name: "Canecas de Cerâmica Personalizadas",
+    image:
+      "../images/13.png",
+    description:
+    "Nossas canecas de cerâmica são feitas pelo método de sublimação, técnica em que a tinta que está no papel, passa do estado sólido para o gasoso, enquanto estampa a caneca. O que garante que o produto não perca a cor e desbote com o tempo.",
+    price: 29,
+    countInStock: 0,
+    rating: 0,
+    numReviews: 0,
+  },
 ];
 export default products;

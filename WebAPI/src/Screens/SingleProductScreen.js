@@ -58,9 +58,13 @@ function SingleProductScreen({ route }) {
           )}
 
           <Spacer />
+
           <Heading bold color={Colors.black} fontSize={19}>
+
             ${product.price}
+
           </Heading>
+
         </HStack>
         <Text lineHeight={24} fontSize={12}>
           {product.description}
@@ -71,9 +75,11 @@ function SingleProductScreen({ route }) {
           color={Colors.white}
           mt={10}
         >
-         ADICIONAR AO CARRINHO
+         Adicionar ao Carrinho
         </Buttone>
+
         {/* REVIEW */}
+        
         <Review />
       </ScrollView>
     </Box>

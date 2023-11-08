@@ -33,8 +33,11 @@ function RegisterScreen({ navigation }) {
         justifyContent="center"
       >
         <Heading>FAÇA UM CADASTRO</Heading>
+
         <VStack space={5} pt="6">
+
           {/* USERNAME */}
+
           <Input
             InputLeftElement={
               <FontAwesome name="user" size={20} color={Colors.main} />
@@ -88,7 +91,7 @@ function RegisterScreen({ navigation }) {
          Cadastrar-se
         </Button>
         <Pressable mt={4} onPress={() => navigation.navigate("Login")}>
-          <Text color={Colors.deepestGray}>LOGIN</Text>
+          <Text color={Colors.deepestGray}>Login</Text>
         </Pressable>
       </Box>
     </Box>

@@ -38,7 +38,7 @@ function ShippingScreen() {
       {/* Header */}
       <Center pb={15}>
         <Text color={Colors.white} fontSize={14} bold>
-        ENDEREÇO ​​DE ENTREGA
+        Endereço de Entrega
         </Text>
       </Center>
       {/* Inputs */}
@@ -79,7 +79,7 @@ function ShippingScreen() {
               color={Colors.white}
               mt={5}
             >
-              CONTINUAR
+              Continuar
             </Buttone>
           </VStack>
         </ScrollView>
